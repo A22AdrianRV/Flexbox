@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Login</legend>
+        <form action="service.php" method="post">
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email" maxlength="30" size="30" placeholder=" Enter email">
+            <p>We'll never share your email with anyone else</p>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" maxlength="30" size="30" placeholder="Password">
+            <div>  
+                <input type="checkbox" name="Remember" id="Remember">
+                <label for="Remember">Remember</label>
+            </div>
+            <button>Submit</button>
+        </form>
+    </fieldset>
+</body>
+</html>
